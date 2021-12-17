@@ -1,0 +1,280 @@
+@media (min-width: 375px) and (max-width: 812px) {
+  .desktop_body{
+    display: none;
+  }
+}
+
+@media (min-width: 812px) and (max-width: 1980px) {
+  .desktop_body{
+    display: block;
+  }
+}
+
+.resposive_aboutus h1{
+  border: 2px solid white;
+  margin: 120px;
+  padding: 15px;
+  text-align: center;
+}
+
+.About_img_style{
+  padding: 0px 0px 0px 0px;
+  width: 210px;
+  height: auto;
+}
+
+.logo_style h3{
+  padding: 150px 0px 50px 0px;
+  font-size: 3vw;
+}
+
+.about_card p{
+  text-align: right;
+  font-size: 1vw;
+}
+
+.body_style{
+  font-size: 1.6vw;
+}
+
+.body_style img{
+  width: 100%;
+  max-width:400px;
+  height:auto;
+}
+
+.body_style2{
+  margin-top: -120px;
+}
+
+.body_style2 p{
+  text-align: left;
+  padding-top: 280px;
+  font-size: 1.6vw;
+}
+
+.head_style{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 35px;
+  font-size: 1.7vw
+}
+
+.body2_style{
+  font-size: 2vw;
+}
+
+.body2_style p{
+  padding: 15px 0px 20px 0px;
+}
+
+.body3_style{
+  font-size: 2vw;
+  padding: 80px 0px 50px 0px;
+}
+
+.body4_style{
+  padding: 50px 0px 200px 0px;
+  font-size: 2vw;
+}
+
+.body4_style img{
+  width: 100%;
+  height:auto;
+}
+
+.body4_style_div{
+  border-style: none;
+}
+
+.body4_style_div p{
+  padding: 20px 0px 0px 0px;
+}
+
+/* about us mobile style */
+@media (min-width: 375px) and (max-width: 812px) {
+  .aboutus_mobile{
+    display: block;
+  }
+}
+
+@media (min-width: 812px) and (max-width: 1980px) {
+  .aboutus_mobile{
+    display: none;
+  }
+}
+
+.About_img_mobile{
+  padding: 280px 0px 30px 0px;
+  width: 70%;
+  height: auto;
+}
+
+.mobile_body_head{
+  padding: 0px 0px 20px 0px;
+}
+
+.mobile_body p{
+  padding: 10px 0px 20px 0px;
+}
+
+.aboutus_mobile_body4{
+  border-style: none;
+}
+
+.aboutus_mobile_body4 img{
+ padding: 20% 0% 0% 0%;
+}
+
+.aboutus_mobile_body4 p{
+ font-size: 3vw;
+}
+/* about us mobile style end*/
+
+/* robot_here */
+@media (min-width: 375px) and (max-width: 812px) {
+  .robot_desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 812px) and (max-width: 1980px) {
+  .robot_desktop {
+    display: block;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 812px) {
+  .robot_mobile {
+    display: block;
+  }
+}
+
+@media (min-width: 812px) and (max-width: 1980px) {
+  .robot_mobile {
+    display: none;
+  }
+}
+
+.robot_desktop {
+  position: fixed;
+  right: 0px;
+  top: 600px;
+  width: 7%;
+  height: auto;
+  padding-right: 2%;
+}
+
+.robot_mobile {
+  position: fixed;
+  right: 0px;
+  top: 750px;
+  width: 15%;
+  height: auto;
+  padding-right: 2%;
+}
+/* robot_end */
+
+/* footer style here */
+@media (min-width: 375px) and (max-width: 812px) {
+  .footer_style_mobile {
+    display: block;
+  }
+}
+
+@media (min-width: 812px) and (max-width: 1980px) {
+  .footer_style_mobile {
+    display: none;
+  }
+}
+
+.footer_logo_mobile {
+  padding: 0px 0px 0px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+}
+
+.footer_logo2_mobile {
+  padding: 10px 0px 0px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+}
+
+.footer_style_mobile {
+  background-color: #19557C;
+  margin-bottom: -300px;
+}
+
+.icon_mobile {
+  padding: 0px 0px 0px 0px;
+  width: 30px;
+  max-width: 100px;
+  height: auto;
+}
+
+.mobile_padding_style {
+  padding: 10px 0px 10px 0px;
+}
+/* footer mobile end */
+
+/* footer desktop here */
+@media (min-width: 375px) and (max-width: 812px) {
+  .footer_style {
+    display: none;
+  }
+}
+
+@media (min-width: 812px) and (max-width: 1980px) {
+  .footer_style {
+    display: block;
+  }
+}
+
+.footer_style {
+  padding: 0px 0px 0px 0px;
+  background-color: #19557C;
+  margin-bottom: -200px;
+}
+
+.footer_logo {
+  padding: 70px 0px 0px 0px;
+}
+
+.nav_style {
+  padding: 20px 0px 0px 0px;
+}
+
+.nav_style li {
+  padding: 0px 0px 10px 20px;
+  font-size: 1.3vw;
+}
+
+.footer_logo {
+  width: 100%;
+  height: auto;
+}
+
+.footer_font li {
+  font-size: 1.05vw;
+}
+
+.li_img_style {
+  padding: 0px 30px 0px 0px;
+  width: 100%;
+  max-width: 60px;
+  height: auto;
+}
+
+.li_h5_style h5 {
+  padding: 0px 0px 50px 15px;
+}
+
+.li_h5_style li {
+  padding: 0px 0px 10px 0px;
+}
